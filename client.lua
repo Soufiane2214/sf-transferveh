@@ -26,16 +26,18 @@ local function TranferVeh()
                                 {type = 'checkbox', label = 'Confirmation', required = true},
                             })
 
-                            if Config.LimitPrice.MaxPrice < tonumber(VehInput[2]) then
-                                QBCore.Functions.Notify('Max price for sell is '..Config.LimitPrice.MaxPrice, 'error')
-                                TranferVeh()
-                                return
-                            elseif Config.LimitPrice.MinPrice > tonumber(VehInput[2]) then
-                                QBCore.Functions.Notify('Min price for sell is '..Config.LimitPrice.MinPrice, 'error')
-                                TranferVeh()
-                                return
-                            end
-                            if VehInput then                          
+                            
+                            if VehInput then   
+                                if Config.LimitPrice.MaxPrice < tonumber(VehInput[2]) then
+                                    QBCore.Functions.Notify('Max price for sell is '..Config.LimitPrice.MaxPrice, 'error')
+                                    TranferVeh()
+                                    return
+                                elseif Config.LimitPrice.MinPrice > tonumber(VehInput[2]) then
+                                    QBCore.Functions.Notify('Min price for sell is '..Config.LimitPrice.MinPrice, 'error')
+                                    TranferVeh()
+                                    return
+                                end
+
                                 local player = GetPlayerFromServerId(VehInput[1])   
                                 local myId = GetPlayerServerId(PlayerId())  
 
