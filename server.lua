@@ -35,6 +35,7 @@ RegisterNetEvent('qb-vehicleshop:server:VehicleTransfered', function(plate, sell
         Player.Functions.RemoveMoney(Config.Payment, price, 'Transfer Vehicle')
         sPlayer.Functions.AddMoney(Config.Payment, price, 'Transfer Vehicle')
         MySQL.update.await('UPDATE player_vehicles SET citizenid = ? WHERE plate = ?', {Player.PlayerData.citizenid, plate})
+        TriggerClientEvent('vehiclekeys:client:SetOwner', src, plate)
         QBCore.Functions.Notify(sellerId, 'Vehicle Transferred Successfully', 'success', 5000)
         QBCore.Functions.Notify(src, 'The Vehicle Now Is Your', 'success', 5000)
     else
