@@ -5,7 +5,7 @@ Simple script to transfer vehicle in roleplay FiveM.
 
 - Discord: soufiane_11
 
-- Join the Discord : https://discord.gg/mkAUZQEyHA
+- Join the Discord : https://discord.gg/WQNGvFY8
 
 # Framework
 QBCore only for now.
