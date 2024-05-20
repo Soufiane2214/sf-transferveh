@@ -51,3 +51,9 @@ end)
 QBCore.Commands.Add(Config.Command, "To Transfer Your Vehicle To Another Citizen", {}, false, function(source)
     TriggerClientEvent('qb-vehicleshop:client:TransferVeh', source)
 end)
+
+if Config.Item.Enable then
+    QBCore.Functions.CreateUseableItem(Config.Item.ItemName, function(source, item)
+        TriggerClientEvent('qb-vehicleshop:client:TransferVeh', source)
+    end)
+end
