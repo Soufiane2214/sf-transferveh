@@ -1,9 +1,11 @@
 # sf-transferveh
 Simple script to transfer vehicle in roleplay FiveM.
 
-Made by Soufiane
-Discord: soufiane_11
-Join the Discord : https://discord.gg/mkAUZQEyHA
+- Made by Soufiane
+
+- Discord: soufiane_11
+
+- Join the Discord : https://discord.gg/mkAUZQEyHA
 
 # Framework
 QBCore only for now.
