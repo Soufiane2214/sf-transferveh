@@ -1,3 +1,6 @@
+# We have a goal to complete 1000 member in discord.
+# [Join Discord](https://discord.gg/WQNGvFY8)
+
 # sf-transferveh
 Simple script to transfer vehicle in roleplay FiveM.
 
