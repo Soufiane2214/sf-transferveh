@@ -1,7 +1,7 @@
 ### [buy me coffe](https://buymeacoffee.com/soufiane_11)
 
 # We have a goal to complete 1000 member in discord.
-# [Join Discord](https://discord.gg/WQNGvFY8)
+# [Join Discord](https://discord.gg/dcm4TNtbGQ)
 
 # sf-transferveh
 Simple script to transfer vehicle in roleplay FiveM.
@@ -9,8 +9,6 @@ Simple script to transfer vehicle in roleplay FiveM.
 - Made by Soufiane
 
 - Discord: soufiane_11
-
-- Join the Discord : https://discord.gg/WQNGvFY8
 
 # Framework
 QBCore only for now.
